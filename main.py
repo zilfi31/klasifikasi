@@ -11,7 +11,7 @@ model = joblib.load("model.joblib")
 result = 0
 
 
-st.title("Klasifikasi Bank")
+st.title("Klasifikasi Berlangganan Term Deposit")
 st.write("Klasifikasi pelanggan sudah berlangganan deposito berjangka untuk memprediksi apakah nasabah akan berlangganan deposito berjangka berdasarkan beberapa parameter.")
 
 
