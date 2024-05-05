@@ -4,8 +4,8 @@ import pandas as pd
 from source import *
 
 # preparing model
-one_hot_encoder = joblib.load("/Volumes/Data/deployment/klasifikasi/one_hot_encoder.joblib")
-model = joblib.load("/Volumes/Data/deployment/klasifikasi/model.joblib")
+one_hot_encoder = joblib.load("one_hot_encoder.joblib")
+model = joblib.load("model.joblib")
 
 # prepare result
 result = 0
