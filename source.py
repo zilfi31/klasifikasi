@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("/Volumes/Data/deployment/klasifikasi/bank.csv")
+df = pd.read_csv("bank.csv")
 
 age = df['age'].unique()
 job = df['job'].unique()
